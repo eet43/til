@@ -9,10 +9,10 @@ Pull Request
 
 `git checkout create-sample` : 해당 브랜치로 이동. <br>
 
-`git pull origin master` : master 브랜치와 병합 <br> **충돌을 해결하기 위함 아주 중요**. <br>
+`git pull origin master` : master 브랜치와 병합 후 코드 작성<br> **충돌을 해결하기 위함 아주 중요**. <br>
 
 
-`git push -u origin create-sample` : 원격 저장소에 브랜치를 생성 한 후 코드 동기화. <br>
+`git push -u origin create-sample` : 원격 저장소에 브랜치를 생성 한 후 작성한 코드 동기화. <br>
 
 > master 브랜치와 병합하기 전, Pull Request 를 팀원에게 보내 안정성을 높일 수 있다. 승인을 받으면 **merge** 진행
 
