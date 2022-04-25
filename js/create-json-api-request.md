@@ -7,14 +7,14 @@ JSON 데이터를 실어 API 호출하기
 ```javascript
 request_body = {
         "content": content
-    } //데이터를 묶어준다.
+    } //데이터를 묶어준다. JSON화
 
     $.ajax({
         type: "POST",
         url: `/api/board/${url}/comment`,
         dataType: 'json', //데이터 타입을 지정해준다.
         contentType: 'application/json; charset=utf-8',
-        data: JSON.stringify(request_body), //데이터를 JSON 형식으로 포맷 시켜준다.
+        data: JSON.stringify(request_body), //다시 string으로 바꿔 묶은 데이터를 보낸다.
         success: function (response) {
             console.log(response)
         }
