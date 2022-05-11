@@ -7,9 +7,24 @@ page = request.form.get('name') #get 키가 없을 때
 ```
 
 ## url 쿼리 매개 변수
+
+**url 파라미터 값 사용하기**<br>
+
 ```python
-search = request.args.get("search")
-page = request.args.get("page")
+# ex) url : localhost:5000/api/board/?var_name="11"
+data = request.args.get(“var_name”)
+#data=11
+```
+<br>
+
+**url 특정 문자열 값 사용하기**<br>
+
+```python
+# ex) url : localhost:5000/api"
+@app.route(‘/<keyword>’)
+def def_name(keyword)
+return render_template(‘’,keyword = keyword)
+#keyword="api"
 ```
 
 
