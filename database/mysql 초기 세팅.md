@@ -2,8 +2,6 @@
 
 자꾸 까먹고 찾아보기 귀찮아서 여기다가 한 번에 정리하려고 한다.<br><br>
 
-<br><br>
-
 mysql 경로접근 : cd /usr/local/mysql/bin <br><br>
 => 원래 환경변수 설정해줘야 하는데 너무 귀찮다.<br><br>
 
