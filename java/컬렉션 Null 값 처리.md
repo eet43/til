@@ -9,3 +9,4 @@ List<Education> educationList = Optional.ofNullable(editResumeRequest.getEducati
                 .collect(Collectors.toList());
 ```
 이렇게 하면 null 값이 오면 빈 컬렉션을 만들어준다.
+함부로 남용하면 안된다고 한다 ..
