@@ -21,3 +21,5 @@ Left Join 은 Outer Join 의 일종이며, 합집합의 종류 중 하나이다.
 Inner Join 은 교집합이라고 생각하면 편하다.<br>
 테이블을 연결하는 key 의 값이 겹치는 부분의 레코들의 집합만 가져와 두 테이블을 합친다.<br><br>
 <img width="758" alt="03" src="https://user-images.githubusercontent.com/59008469/169740377-b128df12-8c1d-4b0c-90de-4d538949b854.png">
+
+스프링에서는 Fetch Join 과도 비교해야할 거 같다.
