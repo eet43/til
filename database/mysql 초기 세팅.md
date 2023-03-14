@@ -9,6 +9,8 @@ mysql 실행(root) : ./mysql -u root -p <br><br>
 
 mysql 유저 만들기 : create user devit@localhost identified by '1234';<br><br>
 
+비밀번호 정책변경 : SET GLOBAL validate_password.policy=LOW; ( 단 8자리 이상은 맞춰야함 )
+
 mysql 데이터베이스 만들기(한글 설정까지) : create database devit_user default character set utf8;<br><br>
 
 mysql 유저에게 (모든)권한 주기 : grant all privileges on devit_user.* to devit@localhost;<br><br>
